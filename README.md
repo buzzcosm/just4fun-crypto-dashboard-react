@@ -1,5 +1,7 @@
 # Crypto Dashboard in React and Nodejs
 
+![app view](./docs/images/crypto-dashboard-view.png)
+
 ### Reference tutorial
 
 - [YouTube - API Project! Build a Crypto Dashboard](https://www.youtube.com/watch?v=_itMdiSc0KI) 👉 [Code with Ania Kubów](https://www.youtube.com/@aniakubow) ❤️
