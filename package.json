@@ -1,5 +1,5 @@
 {
-  "name": "just4fun-crypto-dashboard",
+  "name": "just4fun-crypto-dashboard-react",
   "version": "1.0.0",
   "scripts": {
     "clean-server": "npm run clean --prefix express-api-server",
