@@ -11,6 +11,8 @@ Original Repo: [crypto-dashboard-react](https://github.com/kubowania/crypto-dash
 - [CURRENCY_EXCHANGE_RATE API](https://rapidapi.com/alphavantage/api/alpha-vantage)
 - [Crypto News API](https://rapidapi.com/dbh133/api/crypto-news-live9)
 
+---
+
 > [!NOTE]
 > This software application is not intended for production use and is solely for educational purposes.
 
