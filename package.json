@@ -1,0 +1,16 @@
+{
+  "name": "just4fun-crypto-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "clean-server": "npm run clean --prefix express-api-server",
+    "clean-client": "npm run clean --prefix react-web-client",
+    "clean": "npm run clean-server && npm run clean-client",
+    "install-server": "npm install --prefix express-api-server",
+    "install-client": "npm install --prefix react-web-client",
+    "install": "npm run install-server && npm run install-client",
+    "start-server": "npm run watch --prefix express-api-server",
+    "start-client": "npm run dev --prefix react-web-client",
+    "watch": "npm run start-server & npm run start-client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
