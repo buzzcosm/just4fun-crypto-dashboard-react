@@ -1,5 +1,8 @@
 # Crypto Dashboard in React and Nodejs
 
+> [!NOTE]
+> This software application is not intended for production use and is solely for educational purposes.
+
 ![app view](./docs/images/crypto-dashboard-view.png)
 
 ### Reference tutorial
