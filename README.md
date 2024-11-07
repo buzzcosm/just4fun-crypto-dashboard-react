@@ -1,10 +1,5 @@
 # Crypto Dashboard in React and Nodejs
 
-> [!NOTE]
-> This software application is not intended for production use and is solely for educational purposes.
-
-![app view](./docs/images/crypto-dashboard-view.png)
-
 ### Reference tutorial
 
 - [YouTube - API Project! Build a Crypto Dashboard](https://www.youtube.com/watch?v=_itMdiSc0KI) 👉 [Code with Ania Kubów](https://www.youtube.com/@aniakubow) ❤️
@@ -15,6 +10,11 @@ Original Repo: [crypto-dashboard-react](https://github.com/kubowania/crypto-dash
 
 - [CURRENCY_EXCHANGE_RATE API](https://rapidapi.com/alphavantage/api/alpha-vantage)
 - [Crypto News API](https://rapidapi.com/dbh133/api/crypto-news-live9)
+
+> [!NOTE]
+> This software application is not intended for production use and is solely for educational purposes.
+
+![app view](./docs/images/crypto-dashboard-view.png)
 
 ## Prerequisite
 
