@@ -2,7 +2,7 @@
 
 ### Reference tutorial
 
-- [YouTube - API Project! Build a Crypto Dashboard](https://www.youtube.com/watch?v=_itMdiSc0KI) 👉 [Code with Ania Kubów](https://www.youtube.com/@aniakubow)
+- [YouTube - API Project! Build a Crypto Dashboard](https://www.youtube.com/watch?v=_itMdiSc0KI) 👉 [Code with Ania Kubów](https://www.youtube.com/@aniakubow) ❤️
 
 Original Repo: [crypto-dashboard-react](https://github.com/kubowania/crypto-dashboard-react)
 
