@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { httpFetchExchangedData } from './requests';
+import { useState } from 'react';
+import { httpGetExchangedData } from './requests';
 
 function useExchangedData() {
   const [exchangedData, setExchangedData] = useState({
@@ -15,7 +15,7 @@ function useExchangedData() {
     setError(null);
 
     try {
-      const data = await httpFetchExchangedData(choosenPrimaryCurrency, choosenSecondaryCurrency);
+      const data = await httpGetExchangedData(choosenPrimaryCurrency, choosenSecondaryCurrency);
       setExchangedData({
         primaryCurrency: choosenPrimaryCurrency,
         secondaryCurrency: choosenSecondaryCurrency,

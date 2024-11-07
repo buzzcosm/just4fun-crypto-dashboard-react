@@ -11,9 +11,14 @@ async function httpGetCryptoNews() {
   }
 }
 
-async function httpFetchExchangedData(choosenPrimaryCurrency, choosenSecondaryCurrency) {
+async function httpGetExchangedData(choosenPrimaryCurrency, choosenSecondaryCurrency) {
+  const params = {
+    from_currency: choosenPrimaryCurrency,
+    to_currency: choosenSecondaryCurrency
+  };
+
   try {
-    const response = await axios.post(`${API_URL}/currencies`, { from_currency: choosenPrimaryCurrency, to_currency: choosenSecondaryCurrency });
+    const response = await axios.get(`${API_URL}/currencies`, { params });
     return response.data;
   } catch (error) {
     throw new Error("Failed to fetch exchange rate");
@@ -22,5 +27,5 @@ async function httpFetchExchangedData(choosenPrimaryCurrency, choosenSecondaryCu
 
 export {
   httpGetCryptoNews,
-  httpFetchExchangedData
+  httpGetExchangedData
 }

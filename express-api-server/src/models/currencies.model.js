@@ -2,14 +2,14 @@
 const { REACT_APP_RAPID_API_KEY } = require("../config");
 const axios = require("axios");
 
-async function getExchangedData(choosenPrimaryCurrency, choosenSecondaryCurrency) {
+async function getExchangedData(fromCurrency, toCurrency) {
   const options = {
     method: 'GET',
     url: 'https://alpha-vantage.p.rapidapi.com/query',
     params: {
-      from_currency: choosenPrimaryCurrency,
+      from_currency: fromCurrency,
       function: 'CURRENCY_EXCHANGE_RATE',
-      to_currency: choosenSecondaryCurrency
+      to_currency: toCurrency
     },
     headers: {
       'x-rapidapi-key': REACT_APP_RAPID_API_KEY,
@@ -22,8 +22,8 @@ async function getExchangedData(choosenPrimaryCurrency, choosenSecondaryCurrency
     const data = await response.data;
     const exchangeRateData = data["Realtime Currency Exchange Rate"]["5. Exchange Rate"];
     const exchangedData = {
-      primaryCurrency: choosenPrimaryCurrency,
-      secondaryCurrency: choosenSecondaryCurrency,
+      primaryCurrency: fromCurrency,
+      secondaryCurrency: toCurrency,
       exchangeRate: exchangeRateData
     }
     return exchangedData;

@@ -1,8 +1,8 @@
 const express = require('express');
-const { httpFetchExchangedData } = require('./currencies.controller');
+const { httpGetExchangedData } = require('./currencies.controller');
 
 const currenciesRouter = express.Router();
 
-currenciesRouter.post('/', httpFetchExchangedData);
+currenciesRouter.get('/', httpGetExchangedData);
 
 module.exports = currenciesRouter;
