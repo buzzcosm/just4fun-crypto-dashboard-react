@@ -52,3 +52,11 @@ Remove all `node_modules` and `public` folder.
 ```shell
 npm run clean
 ```
+
+## Useful references
+
+- [Rapid API - Developer Experts](https://rapidapi.com/developers)
+- [axios docu (Node.js)](https://axios-http.com/docs/intro)
+- [dotenv quickstart](https://www.dotenv.org/docs/quickstart)
+  - [npm dotenv](https://www.npmjs.com/package/dotenv)
+- [React - Reusing Logic with Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)
