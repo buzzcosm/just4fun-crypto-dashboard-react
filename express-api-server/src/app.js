@@ -9,9 +9,7 @@ const currenciesRouter = require('./routes/currencies/currencies.router');
 
 const app = express();
 
-app.use(cors({
-  origin: CORS_ORIGIN
-}));
+app.use(cors({ origin: CORS_ORIGIN }));
 app.use(morgan('combined'));
 app.use(express.json());
 
